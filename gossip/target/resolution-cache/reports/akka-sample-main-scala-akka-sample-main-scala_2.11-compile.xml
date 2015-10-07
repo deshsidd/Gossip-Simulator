@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="akka-sample-main-scala"
+		module="akka-sample-main-scala_2.11"
+		revision="2.4-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150919005109"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.5" status="release" pubdate="20150919005110" resolver="jcenter" artresolver="jcenter" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.5/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1424" time="275" location="/Users/siddhantdeshmukh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.5.xml" searched="true" original-local-location="/Users/siddhantdeshmukh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.5.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.pom"/>
+				<caller organisation="akka-sample-main-scala" name="akka-sample-main-scala_2.11" conf="compile" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5576839" time="3002" location="/Users/siddhantdeshmukh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.5/scala-library-2.11.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4-SNAPSHOT" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="akka-sample-main-scala" name="akka-sample-main-scala_2.11" conf="compile" rev="2.4-SNAPSHOT" rev-constraint-default="2.4-SNAPSHOT" rev-constraint-dynamic="2.4-SNAPSHOT" callerrev="2.4-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
